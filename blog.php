@@ -5,7 +5,7 @@ Template Name: blog
 
 get_header();
 ?>
-<!--  kjasdjksadnjasndjas Esta es la página de blog, tuve que crear una página personalizada porque la que tiene WP por defecto no es muy personalizable y me dio muchos problemas con el sidebar. Tiene un loop para traer publicaciones del tipo "post"  -->
+<!-- Esta es la página de blog, tuve que crear una página personalizada porque la que tiene WP por defecto no es muy personalizable y me dio muchos problemas con el sidebar. Tiene un loop para traer publicaciones del tipo "post"  -->
 
 <!--Sección breadcrumb: Título + descripción de la página-->
 <section class="breadcrumb_section bg_gradient_blue deco_wrap d-flex align-items-center text-white clearfix mb-3"
