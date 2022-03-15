@@ -1,0 +1,9 @@
+
+
+.card a:visited{
+	color: black;
+}
+
+a:visited{
+	color: lightgray;
+}
