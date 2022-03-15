@@ -5,7 +5,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-  <p>Chao<p>
+  <p>Holachao<p>
 	<?php
 	while (have_posts()) :
 		the_post();
