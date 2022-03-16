@@ -17,7 +17,7 @@
 
         if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 	
-							<div class="col-md-2 col-6 mx-3">
+							<div class="col-md-2 col-6 mx-3 d-flex align-items-center justify-content-center">
 								<img src="<?php the_post_thumbnail_url(); ?>">
 							</div>
             <?php endwhile;
