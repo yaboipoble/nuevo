@@ -19,9 +19,13 @@ get_header();
 	endwhile; // End of the loop.
 	?>
 <!-- Llamada a los custom loop -->
-<div id="seccion-testimonios">
-	<?php include('modulos/modulo-testimonio/testimonio.php')?>
-	<?php include('modulos/modulo-empresas/empresa.php')?>
+<div id="seccion-testimonios">	
+	<?php 
+	//testimonios
+	include('modulos/modulo-testimonio/testimonio.php');
+	//empresas
+	include('modulos/modulo-empresas/empresa.php');
+	?>
 </div>
 
 
