@@ -25,7 +25,7 @@
 						<div class="thumbnail_wrap">
 							<div class="thumbnail_image">
 								<!-- Imagen destacada: ícono de la persona  -->
-								<?php nuevo_post_thumbnail(); ?>	
+								<?php zerty_post_thumbnail(); ?>	
 							</div>
 						</div>
 						<!-- Título: nombre de la persona  -->

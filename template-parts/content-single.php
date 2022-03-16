@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nuevo
+ * @package zerty
  */
 
 ?>
@@ -33,8 +33,8 @@ if ( ! empty( $categories ) ) {
 			?>
                         <div class="entry-meta">
                             <?php
-				nuevo_posted_on();
-				nuevo_posted_by();
+				zerty_posted_on();
+				zerty_posted_by();
 				?>
                         </div><!-- .entry-meta -->
                         <?php endif; ?>
@@ -50,7 +50,7 @@ if ( ! empty( $categories ) ) {
 				<!-- Contenido de la página  -->
                 <div class="col-12 col-md-8 format-standard">
 				<div class="d-flex align-items-center justify-content-center">
-	  <?php nuevo_post_thumbnail(); ?>
+	  <?php zerty_post_thumbnail(); ?>
 
 	 </div>
                     <?php

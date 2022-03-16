@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nuevo
+ * @package zerty
  */
 
 ?>
@@ -14,7 +14,7 @@
 	<header class="entry-header">
 	</header><!-- .entry-header -->
 
-	<?php nuevo_post_thumbnail(); ?>
+	<?php zerty_post_thumbnail(); ?>
 
 	<div class="entry-content">
 			<?php the_content();

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nuevo
+ * @package zerty
  */
 
 ?>
@@ -22,14 +22,14 @@
 			?>
                         <div class="entry-meta">
                             <?php
-				nuevo_posted_on();
-				nuevo_posted_by();
+				zerty_posted_on();
+				zerty_posted_by();
 				?>
                         </div><!-- .entry-meta -->
                         <?php endif; ?>
                     </header><!-- .entry-header -->
 <div class="d-flex align-items-center justify-content-center">
-	  <?php nuevo_post_thumbnail(); ?>
+	  <?php zerty_post_thumbnail(); ?>
 
 	 </div>
                   
@@ -39,7 +39,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'nuevo' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'zerty' ),
 				'after'  => '</div>',
 			)
 		);

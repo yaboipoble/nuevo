@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nuevo
+ * @package zerty
  */
 
 ?>
@@ -13,7 +13,7 @@
 	<div class="row">
 	<section class="no-results not-found col-md-8">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'No pudimos encontrar nada', 'nuevo' ); ?></h1>
+		<h1 class="page-title"><?php esc_html_e( 'No pudimos encontrar nada', 'zerty' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
@@ -23,7 +23,7 @@
 			printf(
 				'<p>' . wp_kses(
 					/* translators: 1: link to WP admin new post page. */
-					__( 'No hay entradas. Agrega una <a href="%1$s">aquí</a>.', 'nuevo' ),
+					__( 'No hay entradas. Agrega una <a href="%1$s">aquí</a>.', 'zerty' ),
 					array(
 						'a' => array(
 							'href' => array(),
@@ -36,14 +36,14 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Lamentablemente, no encontramos lo que intentaste buscar. Prueba con otros términos.', 'nuevo' ); ?></p>
+			<p><?php esc_html_e( 'Lamentablemente, no encontramos lo que intentaste buscar. Prueba con otros términos.', 'zerty' ); ?></p>
 			<?php
 			get_search_form();
 
 		else :
 			?>
 
-			<p><?php esc_html_e( 'Parece que el contenido al que intentaste acceder no está disponible. Prueba la función de búsqueda.', 'nuevo' ); ?></p>
+			<p><?php esc_html_e( 'Parece que el contenido al que intentaste acceder no está disponible. Prueba la función de búsqueda.', 'zerty' ); ?></p>
 			<?php
 			get_search_form();
 

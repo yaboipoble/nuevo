@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package nuevo
+ * @package zerty
  */
 
 ?>
@@ -32,7 +32,7 @@
 		</div>
 	</header><!-- .entry-header -->
 
-	<?php nuevo_post_thumbnail(); ?>
+	<?php zerty_post_thumbnail(); ?>
 
 	<div class="entry-content container fade-in-up">
 		<?php
@@ -40,7 +40,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'nuevo' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'zerty' ),
 				'after'  => '</div>',
 			)
 		);

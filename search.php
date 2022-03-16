@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package nuevo
+ * @package zerty
  */
 
 get_header();
@@ -21,7 +21,7 @@ get_header();
 					   <h1 class="page_title text-white fade-in-up">
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Resultados para: %s', 'nuevo' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Resultados para: %s', 'zerty' ), '<span>' . get_search_query() . '</span>' );
 					?>
 				</h1>
 					</div>
