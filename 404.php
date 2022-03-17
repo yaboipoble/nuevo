@@ -12,7 +12,7 @@ get_header();
 <!-- Página 404  -->
 	<main id="primary" class="site-main">
 
-		<section id="error_section" class="error_section bg_gradient_blue deco_wrap d-flex align-items-center text-white clearfix">
+		<section id="error_section" class="error_section bg_gradient_blue deco_wrap d-flex align-items-center text-white clearfix pb-4">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -20,7 +20,7 @@ get_header();
                     <h1 class="page_title text-white">404</h1>
                     <h3 class="title_text text-white">Página no encontrada</h3>
                     <p>La página a la que intentas acceder no está disponible.</p>
-                    <a href="/" class="btn bg_white">
+                    <a href="/" class="btn btn_border border_white">
                         Volver al inicio
                     </a>
                 </div>
