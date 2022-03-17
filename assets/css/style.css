@@ -847,3 +847,18 @@ background-repeat: no-repeat;
 	padding-left: 0;
 }
 
+#footer-Content .nav-link{
+	padding: 0;
+}
+
+#footer-Content a{
+    transition: 0.2s all ease;
+}
+
+#footer-Content a:hover {
+    color: #4169e1;
+}
+
+.wpforms-title{
+	font-weight: bold;
+}
