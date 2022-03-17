@@ -701,7 +701,17 @@ background-repeat: no-repeat;
     line-height: 1;
     font-size: 300px;
     margin-bottom: 10px;
-    z-index: -1;
+    padding: 30px;
+    
+}
+
+@media (max-width: 480px){
+	
+  .error_section .error_content .page_title {
+    line-height: 1;
+    font-size: 150px;
+    margin-bottom: 10px;
+  }
 }
 
 .error_section .error_content p {
